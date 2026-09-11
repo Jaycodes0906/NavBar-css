@@ -14,6 +14,7 @@ html {
 body {
   background-color: #0e0e0e;
   font-family: sans-serif;
+   background-image: url("images/moon-sunset.jpg");
 }
 /* header */
 header {
@@ -69,4 +70,12 @@ nav a {
   padding: 1rem 1rem;
   margin: 2rem auto;
   font-size: 1rem;
+}
+
+img {
+ width: 500px;
+  height: 700px;
+  object-fit: cover;
+  display: block;
+  margin: 2rem auto; 
 }
